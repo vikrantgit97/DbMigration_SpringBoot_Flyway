@@ -14,10 +14,10 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.entity.Employee;
 import com.example.demo.repository.EmployeeRepository;
 
-@SpringBootApplication
 @RestController
 @RequestMapping("/employee")
-public class CompositeKeyApplication {
+@SpringBootApplication
+public class DbMigrationApplication {
 	
 	@Autowired
 	private EmployeeRepository repository;
@@ -33,7 +33,7 @@ public class CompositeKeyApplication {
 	}
 	
 	public static void main(String[] args) {
-		SpringApplication.run(CompositeKeyApplication.class, args);
+		SpringApplication.run(DbMigrationApplication.class, args);
 	}
 
 }
