@@ -15,7 +15,7 @@
     1: The name always starts with letter "V" in uppercase.
     2: Migration version it can be 1, 001,  1.2.3, Ater that two underscores (__)
     3: Migration description: Use underscores or spaces to separate words, with a file extension of .sql (e.g., V1__CREATE_TABLES.sql)    
-    4: spring.jpa.hibernate.ddl-auto set to none or validate
+    4: spring.jpa.hibernate.ddl-auto set to none or validate 
 #### flyway dependency maven
 		<dependency>
 			<groupId>org.flywaydb</groupId>
