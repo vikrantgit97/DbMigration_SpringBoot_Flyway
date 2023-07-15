@@ -1,4 +1,4 @@
-# SpringBoot with Database Migration using flyway 
+# SpringBoot with Database Migration using flyway  
     Databases are crucial for applications and during the development of the project.
     these changes imply the modification in the database structure. 
     These changes are versioned nowhere, meaning if we want to roll back, 
