@@ -22,7 +22,7 @@
 			<artifactId>flyway-core</artifactId>
 		</dependency>
 #### Requirements
-Make sure to have the followings installed:
+Make sure to have the followings installed: 
 * To run locally
     - MySQL Server [Installation guide](https://www.mysql.com/downloads/)
 * To run with Docker
